@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header section */
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  font-family: "Roboto";
+  height: 400px;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+}
+
+.herocontainer {
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+
+/* information section */
+
+.info {
+  height: 300px;
+}
+
+.thumbnails {
+  display: flex;
+}
+
+/* qoute section */
+
+.qoute {
+  background-color: #e5e7eb;
+  height: 300px;
+}
+
+/* cta section */
+
+.cta {
+  height: 300px;
+}
+.ctabox {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+}
+
+/* footer section */
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+}
