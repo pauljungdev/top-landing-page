@@ -15,24 +15,68 @@
 
 .top {
   display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
 }
 
 .herocontainer {
   display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
 }
 
+.image {
+  background-color: gray;
+  width: 450px;
+  height: 200px;
+}
 .links {
   display: flex;
+  gap: 20px;
 }
 
+.logo {
+  font-size: 18px;
+}
 /* information section */
-
+.box {
+  height: 100px;
+  width: 100px;
+  border-color: #3882f6;
+}
 .info {
   height: 300px;
 }
 
+.info-title {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.signup {
+  width: 400px;
+}
+
+.signbtn {
+  background-color: #3882f6;
+  text-align: center;
+  color: white;
+  width: 80px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
 .thumbnails {
   display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* qoute section */
@@ -42,15 +86,40 @@
   height: 300px;
 }
 
+.qoutes {
+  font-size: 36px;
+  font-family: light italic;
+  color: #1f2937;
+  margin: 0 400px;
+}
+
+.signature {
+  font-weight: 900;
+  margin-left: 1100px;
+}
 /* cta section */
 
 .cta {
   height: 300px;
 }
 .ctabox {
+  display: flex;
+  justify-content: space-between;
   background-color: #3882f6;
   color: white;
   display: flex;
+  height: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+.tagline {
+  margin: 30px 200px;
+}
+
+.tagbtn {
+  margin: 30px 200px;
 }
 
 /* footer section */
@@ -58,4 +127,11 @@
 .footer {
   background-color: #1f2937;
   color: white;
+  height: 100px;
+}
+
+.odin-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
